@@ -4,3 +4,9 @@ kyle:
   name: "Kyle Fujisawa"
   email: "kfujisawa90@gmail.com"
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+kai:
+  name: "Kai Fujisawa"
+  email: "kayofujimountain@gmail.com"
+  password_digest: <%= User.digest('password') %>
