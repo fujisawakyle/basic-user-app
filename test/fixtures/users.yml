@@ -5,8 +5,12 @@ kyle:
   email: "kfujisawa90@gmail.com"
   password_digest: <%= User.digest('password') %>
   admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 kai:
   name: "Kai Fujisawa"
   email: "kayofujimountain@gmail.com"
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
